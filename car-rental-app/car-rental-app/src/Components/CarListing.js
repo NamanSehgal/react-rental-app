@@ -7,6 +7,8 @@ import Footer from './Footer';
 
 
 const CarListing = () => {
+  const [carDetails, setCarDetails] = useState([]);
+
   const history = useHistory();
   const renderProps = [{
     id: '1234',
@@ -27,6 +29,19 @@ const CarListing = () => {
     speed: '39kmph',
     price: 30,
   }];
+
+  React.useEffect(() => {
+    // make axios call here with .then and .catch and then set the values in the state
+
+    /*
+        axiosCall.then(resp => {
+          setCarDetails(resp)
+        }).catch(error => {
+            console.error(error)
+        })
+
+    */
+  }, []);
 
   const handleBookNowClick = (id, name) => {
     console.log('Details',id);

@@ -11,3 +11,5 @@ interface CarList {
 export const sortAccordingToKeys = (carList: Array<CarList>, sortKey: string, sortByOrder: any): Array<CarList> => {
     return orderBy(carList, sortKey, sortByOrder)
 }
+
+// export const <dummyHelperFunctionToFormatCarDetails>
