@@ -4,13 +4,14 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "@types/jest": "^26.0.23",
     "@types/node": "^12.20.15",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.8",
+    "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "lodash-es": "^4.17.21",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-calendar": "^3.4.0",
@@ -43,5 +44,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.7",
+    "@types/lodash-es": "^4.17.4",
+    "@types/react-calendar": "^3.4.0",
+    "@types/react-router-dom": "^5.1.7",
+    "global-jsdom": "^8.1.0",
+    "jsdom": "^16.6.0"
   }
 }
